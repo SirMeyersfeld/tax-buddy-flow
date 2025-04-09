@@ -1,18 +1,13 @@
-
-import React from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App.tsx';
 import './index.css';
 
-// Get the root element
-const rootElement = document.getElementById('root');
+// ✅ Import Vercel Analytics
+import { Analytics } from '@vercel/analytics/react';
 
-// Create a root
-if (rootElement) {
-  const root = createRoot(rootElement);
-  
-  // Render the app
-  root.render(<App />);
-} else {
-  console.error("Root element not found!");
-}
+createRoot(document.getElementById('root')!).render(
+  <>
+    <App />
+    <Analytics /> {/* ✅ Analytics component added */}
+  </>
+);
