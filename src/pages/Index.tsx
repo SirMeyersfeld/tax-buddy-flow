@@ -1,4 +1,3 @@
-
 import React from 'react';
 import NavBar from "@/components/NavBar";
 import FeatureCard from "@/components/Dashboard/FeatureCard";
@@ -18,20 +17,6 @@ const Index: React.FC = () => {
               <p className="text-xl md:text-2xl mb-8 opacity-90">
                 Smart tax assistance for freelancers and small businesses
               </p>
-              <div className="flex flex-col sm:flex-row justify-center gap-4">
-                <a 
-                  href="/calculator" 
-                  className="bg-white text-taxflow-darkblue font-medium py-3 px-6 rounded-md hover:bg-gray-100 transition-colors"
-                >
-                  Try Tax Calculator
-                </a>
-                <a 
-                  href="/assistant" 
-                  className="bg-taxflow-orange text-white font-medium py-3 px-6 rounded-md hover:bg-opacity-90 transition-colors"
-                >
-                  Ask AI Assistant
-                </a>
-              </div>
             </div>
           </div>
         </section>
