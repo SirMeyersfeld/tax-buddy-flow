@@ -85,7 +85,7 @@ const Index: React.FC = () => {
           <div className="text-center">
             <p className="text-lg font-bold mb-2">Tax<span className="text-taxflow-blue">Flow</span></p>
             <p className="text-sm opacity-70">© {new Date().getFullYear()} TaxFlow. All rights reserved.</p>
-            <p className="text-xs mt-2 opacity-50">For demonstration purposes only. Not financial advice.</p>
+            <p className="text-xs mt-2 opacity-50">Made by Liam Meyersfeld and Dylan Friedman.</p>
           </div>
         </div>
       </footer>
